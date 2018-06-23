@@ -1,6 +1,9 @@
 .partners {
   background-color: #fff;
   padding: 100px 0 85px 0;
+  @include max(600) {
+    padding: 50px 0;
+  }
 }
 .partners__header-title {
   color: #808080;
@@ -15,10 +18,20 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  @include max(600) {
+    justify-content: center;
+  }
 }
 .partners__item {
   display: block;
   width: 20%;
+  @include max(600) {
+    width: 33.33%;
+
+  }
+  @include max(425) {
+    width: 50%;
+  }
 }
 .partners__link {
   width: 100%;

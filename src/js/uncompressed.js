@@ -1,3 +1,24 @@
+// begin SVG for IE
+$(function() {
+  svg4everybody();
+});
+// end SVG for IE
+
+
+// begin scroll 2 ancore desktop menu
+$(function() {
+  $('.header-menu__item a[href*=\\#]').on("click", function(e){
+    // e.preventDefault();
+    var anchor = $(this);
+    $('html, body').stop().animate({
+      scrollTop: $(anchor.attr('href')).offset().top - 0 + 'px'
+    }, 1000);
+  });
+  return false;
+});
+// end scroll 2 ancore desktop menu
+
+
 // initMap() - функция инициализации карты
 function initMap() {
   // Координаты центра на карте. Широта: 56.2928515, Долгота: 43.7866641
@@ -20,7 +41,11 @@ function initMap() {
 // Ждем полной загрузки страницы, после этого запускаем initMap()
 google.maps.event.addDomListener(window, "load", initMap);
 
-
+// begin menu
 $('#burger label').on('click', function () {
   $('.header-menu').slideToggle();
 });
+$('#burger label .header-menu__link').on('click', function () {
+  $('.header-menu').slideUp();
+});
+// end menu

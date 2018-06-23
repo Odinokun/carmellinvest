@@ -5,6 +5,9 @@
   background-position: 50% 50%;
   background-repeat: no-repeat;
   padding: 420px 0 290px 0;
+  @include max(600) {
+    padding: 50px 0;
+  }
 }
 .top-section__title {
   text-transform: uppercase;
@@ -14,9 +17,16 @@
   margin: 0;
   line-height: 1;
   margin-bottom: -10px;
+  @include max(600) {
+    margin: 0;
+    font-size: 60px;
+  }
 }
 .top-section__subtitle {
   line-height: 1;
   font-size: 46px;
   font-weight: 400;
+  @include max(600) {
+    font-size: 24px;
+  }
 }

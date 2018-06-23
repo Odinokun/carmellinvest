@@ -4,6 +4,9 @@
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
+  @include max(600) {
+    padding: 50px 0;
+  }
 }
 .who-we-are__title {
   font-size: 44px;
@@ -21,6 +24,10 @@
   width: 50%;
   padding: 20px 20px 10px 35px;
   border-left: 2px solid #010101;
+  @include max(600) {
+    width: 100%;
+    border: none !important;
+  }
   &:last-child {
     border-right: 2px solid #010101;
   }

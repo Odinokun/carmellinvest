@@ -1,0 +1,24 @@
+.hospital {
+  padding: 270px 0;
+  background-image: url('../img/bg-hospital.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.hospital__header-title {
+  font-size: 44px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #010101;
+}
+.hospital__text {
+  max-width: 740px;
+  margin: 0 auto;
+  text-align: center;
+  p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+}

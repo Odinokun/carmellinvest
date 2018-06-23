@@ -1,0 +1,35 @@
+.footer {
+  padding: 70px 0 60px 0;
+  background-color: #808080;
+  text-align: center;
+}
+
+.footer-logo {
+  margin-bottom: 25px;
+  img {
+    display: block;
+    width: 99px;
+    height: 93px;
+    margin: 0 auto;
+  }
+}
+.footer__title {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+}
+.footer__link {
+  font-size: 22px;
+  font-weight: 300;
+  color: #ffffff;
+  transition: .5s;
+  text-decoration: none;
+  &:hover {
+    color: #0ff;
+  }
+  span {
+    color: #0ff;
+
+  }
+}

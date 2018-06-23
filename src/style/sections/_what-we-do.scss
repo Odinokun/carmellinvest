@@ -1,0 +1,55 @@
+.what-we-do {
+  padding: 70px 0 210px 0;
+  background-image: url('../img/bg-what-we-do.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.what-we-do__header {
+  margin-bottom: 120px;
+}
+.what-we-do__header-title {
+  font-size: 44px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #010101;
+}
+.what-we-do__row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.what-we-do__item {
+  width: 50%;
+  max-width: 430px;
+  padding: 0 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  p {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+  }
+}
+.what-we-do__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85px;
+  height: 85px;
+  margin: 0 auto 25px;
+  border-radius: 50%;
+  background-color: #fff;
+
+  svg {
+    max-width: 45%;
+    max-height: 45%;
+  }
+}
+.what-we-do__title {
+  font-size: 33px;
+  font-weight: 400;
+  text-transform: uppercase;
+}

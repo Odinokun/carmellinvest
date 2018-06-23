@@ -1,6 +1,13 @@
 .burger {
-  width: 130px;
+  width: 40px;
+  position: absolute;
+  top: -5px;
+  right: 20px;
   height: 40px;
+  display: none;
+  @include max(600) {
+    display: block !important;
+  }
 }
 .burger input {
   display: none;
@@ -23,7 +30,7 @@
   margin-top: -1px;
   content: '';
   border-radius: 2px;
-  background: #fafafa;
+  background: #0ff;
 }
 .burger label:before {
   animation: animationOneReverse 1s ease forwards;
@@ -64,7 +71,7 @@
   margin-top: -1px;
   content: '';
   border-radius: 2px;
-  background: #fafafa;
+  background: #0ff;
 }
 .burger label:after {
   animation: animationTwoReverse 1s ease forwards;
@@ -105,7 +112,7 @@
   content: '';
   animation: animationBurgerTopReverse 1s ease forwards;
   border-radius: 2px;
-  background: #fafafa;
+  background: #0ff;
 }
 @keyframes animationBurgerTopReverse {
   0%,
@@ -148,7 +155,7 @@
   content: '';
   animation: animationBurgerBottomReverse 1s ease forwards;
   border-radius: 2px;
-  background: #fafafa;
+  background: #0ff;
 }
 @keyframes animationBurgerBottomReverse {
   0%,

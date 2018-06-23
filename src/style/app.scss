@@ -1,4 +1,5 @@
 // core
+@import 'core/mixins';
 @import 'core/base';
 
 //elements
@@ -9,6 +10,11 @@
 @import 'sections/header';
 @import 'sections/top-sec';
 @import 'sections/who-we-are';
+@import 'sections/what-we-do';
+@import 'sections/medical-devices';
+@import 'sections/partners';
+@import 'sections/hospital';
+@import 'sections/map';
 
 //pages
 @import 'pages/index';

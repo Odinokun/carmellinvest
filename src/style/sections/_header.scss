@@ -5,6 +5,10 @@
 
 .header-logo {
   margin-bottom: 25px;
+
+  @include max(600) {
+    margin-bottom: 10px;
+  }
   img {
     display: block;
     width: 99px;
@@ -14,16 +18,33 @@
 }
 
 .header-menu {
-  max-width: 600px; margin: 0 auto;
+  max-width: 600px;
+  margin: 0 auto;
+  @include max(600) {
+    display: none;
+  }
 }
 
 .header-menu__list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   width: 100%;
+  margin: 0 auto;
+  padding: 0;
   list-style: none;
+  @include max(600) {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+  }
 }
 
+.header-menu__item {
+  @include max(600) {
+    margin-bottom: 10px;
+  }
+}
 .header-menu__link {
   font-size: 18px;
   position: relative;

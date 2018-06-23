@@ -1,36 +1,59 @@
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
 body {
-	height: 100%;
-	margin: 0;
-	padding: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-	font-family: 'Teko', sans-serif;
-	font-size: 16px;
-	line-height: 1.38;
-	color: #000;
+  font-family: 'Teko', sans-serif;
+  font-size: 16px;
+  line-height: 1.38;
+  color: #000;
 }
 
 body {
-	min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0 0 10px 0;
 }
 
 svg {
-	display: block;
-	overflow: visible;
+  display: block;
+  overflow: visible;
+}
+
+.main {
+  position: relative;
+  flex: 1 0 auto;
+}
+
+.header,
+.page-header,
+.footer {
+  flex: 0 0 auto;
 }
 
 .container {
-	position: relative;
-	width: 100%;
-	max-width: 960px;
-	margin: 0 auto;
-	padding: 0 10px;
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
 }

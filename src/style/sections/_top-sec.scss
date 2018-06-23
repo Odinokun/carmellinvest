@@ -1,0 +1,22 @@
+.top-section {
+  text-align: center;
+  background-image: url('../img/bg-top-section.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  padding: 420px 0 290px 0;
+}
+.top-section__title {
+  text-transform: uppercase;
+  font-size: 105px;
+  color: #ffffff;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1;
+  margin-bottom: -10px;
+}
+.top-section__subtitle {
+  line-height: 1;
+  font-size: 46px;
+  font-weight: 400;
+}

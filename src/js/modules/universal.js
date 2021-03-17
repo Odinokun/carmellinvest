@@ -24,7 +24,7 @@ module.exports = function() {
 // initMap() - функция инициализации карты
   function initMap() {
     // Координаты центра на карте. Широта: 56.2928515, Долгота: 43.7866641
-    var centerLatLng = new google.maps.LatLng(52.482105, -1.898686);
+    var centerLatLng = new google.maps.LatLng(51.524807008068414, -0.10222978858747618);
     // Обязательные опции с которыми будет проинициализированна карта
     var mapOptions = {
       center: centerLatLng, // Координаты центра мы берем из переменной centerLatLng

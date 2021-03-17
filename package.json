@@ -16,11 +16,17 @@
     "url": "https://github.com/Odinokun/quick-start-tpl/issues"
   },
   "homepage": "https://github.com/Odinokun/quick-start-tpl#readme",
+  "browserslist": [
+    "last 2 versions",
+    ">1%",
+    "IE 10",
+    "IE 11"
+  ],
   "devDependencies": {
     "browser-sync": "^2.23.6",
     "browserify": "^15.2.0",
     "del": "^3.0.0",
-    "gulp": "git+https://git@github.com/gulpjs/gulp.git#4.0",
+    "gulp": "github:gulpjs/gulp#6d71a65",
     "gulp-autoprefixer": "^4.1.0",
     "gulp-cached": "^1.1.1",
     "gulp-cheerio": "^0.6.3",
